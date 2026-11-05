@@ -85,7 +85,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/SamyHAL/devsecops-kubernetes-project.git'
+                git branch: 'main', url: 'https://github.com/SamyHAL/devsecops-kubernetes-project.git'
             }
         }
         stage('Update Deployment file') {
